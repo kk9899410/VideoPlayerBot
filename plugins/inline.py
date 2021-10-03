@@ -30,7 +30,7 @@ buttons = [
                 InlineKeyboardButton("SUPPORT", url="https://t.me/AnimeSubbingTeam07"),
             ],
             [
-                InlineKeyboardButton("🤖 contact to sakata 🤖", url=""),
+                InlineKeyboardButton("🤖 contact to sakata 🤖", url="https://t.me/{UPDATES_CHANNEL}"),
             ]
          ]
 
