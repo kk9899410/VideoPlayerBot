@@ -32,6 +32,10 @@ async def start(client, message):
                 InlineKeyboardButton("❔ HOW TO USE ME ❔", callback_data="help"),
             ],
             [
+                InlineKeyboardButton("Hindi sub Anime", url="https://t.me/AnimeSubbingTeam07"),
+                InlineKeyboardButton("Hindi sub Anime", url="https://t.me/AnimeSubbingTeam07"),               
+            ],
+            [
                 InlineKeyboardButton("🤖 ABOUT", callback_data="about"),
                 InlineKeyboardButton("CLOSE 🔒", callback_data="close"),
             ],
@@ -86,6 +90,10 @@ async def cb_handler(client: Client, query: CallbackQuery):
         buttons = [
             [
                 InlineKeyboardButton("❔ HOW TO USE ME ❔", callback_data="help"),
+            ],
+            [
+                InlineKeyboardButton("📢 Hindi sub Anime", url=f"https://t.me/{UPDATES_CHANNEL}"),
+                InlineKeyboardButton("Hindi sub Anime 📦", url=f"https://t.me/AnimeSubbingTeam07"),
             ],
             [
                 InlineKeyboardButton("🤖 ABOUT", callback_data="about"),
