@@ -32,10 +32,6 @@ async def start(client, message):
                 InlineKeyboardButton("❔ HOW TO USE ME ❔", callback_data="help"),
             ],
             [
-                InlineKeyboardButton("📢 CHANNEL", url=f"https://t.me/{UPDATES_CHANNEL}"),
-                InlineKeyboardButton("SOURCE 📦", url=f"https://t.me/{UPDATES_CHANNEL}"),
-            ],
-            [
                 InlineKeyboardButton("🤖 ABOUT", callback_data="about"),
                 InlineKeyboardButton("CLOSE 🔒", callback_data="close"),
             ],
@@ -90,10 +86,6 @@ async def cb_handler(client: Client, query: CallbackQuery):
         buttons = [
             [
                 InlineKeyboardButton("❔ HOW TO USE ME ❔", callback_data="help"),
-            ],
-            [
-                InlineKeyboardButton("📢 CHANNEL", url=f"https://t.me/{UPDATES_CHANNEL}"),
-                InlineKeyboardButton("SOURCE 📦", url=f"https://t.me/{UPDATES_CHANNEL}"),
             ],
             [
                 InlineKeyboardButton("🤖 ABOUT", callback_data="about"),
